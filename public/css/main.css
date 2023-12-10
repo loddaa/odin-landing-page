@@ -180,3 +180,32 @@ footer span {
     text-align: end;
     font-size: 20px;
 }
+
+.cta {
+    padding: 80px var(--padding-x-section);
+}
+
+.cta-container {
+    background-color: #3883F6;
+    color: white;
+    padding: 30px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.cta-container p:nth-of-type(1) {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.cta button {
+    background-color: white;
+    color: #3883F6;
+    padding: 7px 20px;
+    border-radius: 7px;
+    border: none;
+}
