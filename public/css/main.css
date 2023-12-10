@@ -56,12 +56,7 @@ footer {
     align-items: center;
     background-color: #1F2937;
     color: white;
-}
-
-footer span {
-    border-bottom: 2px solid white;
-    color: white;
-    padding: 2px 2px;
+    padding: 20px;
 }
 
 .hero {
