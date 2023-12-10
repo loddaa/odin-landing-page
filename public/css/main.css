@@ -26,6 +26,7 @@ ul {
 header {
     position: sticky;
     top: 0;
+    border-bottom: .5px solid rgba(0, 0, 0, .3);
 }
 
 nav {
@@ -60,4 +61,48 @@ footer span {
     border-bottom: 2px solid white;
     color: white;
     padding: 2px 2px;
+}
+
+.hero {
+    padding: var(--padding-y-section) var(--padding-x-section);
+    display: flex;
+    gap: 50px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero-title, 
+.hero-img {
+    flex-basis: 50%;
+}
+
+.hero-img {
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.hero-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transform: scale(1.5);
+}
+
+.hero .title {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.hero button {
+    background-color: #3883F6;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 7px;
+    border: none;
+}
+
+.hero div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
