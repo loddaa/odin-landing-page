@@ -162,3 +162,21 @@ footer span {
     font-weight: 600;
     font-size: 18px;
 }
+
+.quote {
+    padding: var(--padding-y-section) var(--padding-x-section);
+    background-color: lightgray;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-content p:nth-of-type(1) {
+    font-size: 16px;
+}
+
+.quote-content p:nth-of-type(2) {
+    text-align: end;
+    font-size: 20px;
+}
